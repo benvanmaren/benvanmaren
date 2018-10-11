@@ -1,0 +1,233 @@
+/* Custom Stylesheet */
+/**
+ * Use this file to override Materialize files so you can update
+ * the core Materialize files in the future
+ *
+ * Made By MaterializeCSS.com
+ */
+
+nav ul a,
+nav .brand-logo {
+  color: #444;
+}
+
+#movie-details-space,
+#movie-details-title{
+  font-family: "Arial Black", Gadget, sans-serif;
+  font-size: 20px;
+}
+#movie-info{
+  padding: 20px;
+}
+
+.movie-snippet{
+  padding: 15px;
+}
+
+.parallax{
+  background-repeat:repeat;
+  position: relative;
+  background-color: whitesmoke;
+}
+
+.transition-img{
+  position: absolute;
+}
+
+p {
+  line-height: 2rem;
+}
+
+.sidenav-trigger {
+  color: #26a69a;
+}
+
+.parallax-container {
+  min-height: 380px;
+  line-height: 0;
+  height: auto;
+  color: rgba(255,255,255,.9);
+}
+  .parallax-container .section {
+    width: 100%;
+  }
+
+@media only screen and (max-width : 992px) {
+  .parallax-container .section {
+    position: absolute;
+    top: 40%;
+  }
+  #index-banner .section {
+    top: 10%;
+  }
+
+  .transition-img{
+    height: 140%;
+  }
+}
+
+@media only screen and (max-width : 600px) {
+  #index-banner .section {
+    top: 0;
+  }
+
+  nav .brand-logo{
+    font-size: 2.2em;
+  }
+
+  .carousel{
+    height: 0px !important;
+  }
+}
+
+.icon-block {
+  padding: 0 15px;
+}
+.icon-block .material-icons {
+  font-size: inherit;
+}
+
+footer.page-footer {
+  margin: 0;
+}
+
+.popularMovies .btn-large{
+  margin: 5%;
+  
+}
+
+.img-left{
+  float: left;
+  width: 40%;
+  height: 350px;
+}
+
+.alt-movie-img{
+  height: 100%;
+}
+
+.content-right{
+  width: 60%;
+  float: left;
+  padding: 20px;
+}
+
+.clear-div{
+  content: "";
+  clear: both;
+  display: table;
+}
+
+.alt-movie-card{
+  padding: 15px;
+  margin: 25px 15px;
+  overflow: auto;
+}
+
+#title{
+  font-size: 80px;
+  background: rgb(231,192,37, .7);
+  font-weight: bold;
+  border: black solid 2px;
+}
+
+#huh{
+  font-size: 3em;
+  background: rgb(231,192,37, .7);
+  font-weight: bold;
+  border: black solid 2px;
+  padding: 20px;
+}
+
+#alt-movies-btn{
+  font-size: 1.5em;
+}
+
+.tabs li{
+  margin-left: 5%;
+}
+
+.carousel{
+  min-height: 40vh !important;
+}
+
+.chevron{
+  font-family: 'Material Icons';
+  font-weight: normal;
+  font-style: normal;
+  font-size: 24px;
+  line-height: 1;
+  letter-spacing: normal;
+  text-transform: none;
+  display: inline-block;
+  white-space: nowrap;
+  word-wrap: normal;
+  direction: ltr;
+  -moz-font-feature-settings: 'liga';
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.middle-indicator{
+  position: absolute;
+  top: 40%;
+}
+
+.middle-indicator-text{
+  font-size: 4.2rem;
+}
+
+a.middle-indicator-text{
+  color: white !important;
+}
+
+.content-indicator{
+  width: 64px;
+  height: 64px;
+  background: none;
+  -moz-border-radius: 50px;
+  -webkit-border-radius: 50px;
+  border-radius: 50px; 
+}
+
+.indicators{
+  visibility: hidden;
+}
+
+.play-song{
+  text-shadow: none;
+  box-shadow: none;
+  background-color: white;
+  border-radius: 50px;
+}
+
+.play-song:active{
+  background-color: white;
+  color: black;
+}
+
+.play-song:focus{
+  background-color: white;
+  color: black
+}
+
+.search-wrapper{
+  position: relative;
+}
+
+.sherlock{
+  position: absolute;
+  right: 5px;
+  top: 10px;
+}
+
+.subheader{
+  font-size: 1.5em !important;
+  line-height: 2.75em !important;
+}
+
+#nav-popular-searches{
+  font-weight: bold;
+  font-size: 1.8em;
+  position: relative;
+  top: 5px;
+}

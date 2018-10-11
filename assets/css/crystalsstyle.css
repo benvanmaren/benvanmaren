@@ -1,0 +1,80 @@
+body{
+    background-size:100%;
+    background-image: url("https://d2v9y0dukr6mq2.cloudfront.net/video/thumbnail/H8WuRINimqur8ud/cosmos-cosmic-background_r0xiwz1p_thumbnail-full01.png");
+color:white;
+}
+
+#title{
+    background-color: black;
+    padding:5px;
+    margin:10px;
+    width:400px;
+    text-align:center;
+    font-size: 45px;
+}
+#instructions{
+    background-color: gray;
+    width:400px;
+    padding:5px;
+    margin:10px;
+    text-align:center;
+}
+
+#score-box{
+    width:400px;
+    margin:10px;
+    overflow:auto;
+
+}
+#target-random-number-box{
+    background-color: black;
+    width:200px;
+    float:left;
+    text-align:center;
+    height:40px;
+    font-size: 30px;
+
+}
+#wins-losses-box{
+    width:200px;
+    background-color:black;
+    float:left;
+    text-align:center;
+    height:40px;
+ 
+}
+
+#crystals{
+    overflow:auto;
+    width:400px;
+    background:gray;
+    margin:10px;
+    border: dashed 1px white;
+
+}
+
+#crystal-one{
+    float:left;
+}
+#crystal-two{
+    float:left;
+}
+#crystal-three{
+    float:left;
+}
+#crystal-four{
+float:left;
+}
+#total-score-title{
+    background-color:black;
+    width:400px;
+    padding:5px;
+    margin:10px;
+}
+#total-score{
+    width:400px;
+    background-color:black;
+    padding:5px;
+    margin:10px;
+    font-size: 30px;
+}

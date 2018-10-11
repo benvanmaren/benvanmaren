@@ -1,0 +1,30 @@
+div{
+    float:left;
+}
+.button {
+background-color: white;
+border: 2px solid purple;
+color: black;
+font-size: 16px;
+-webkit-transition-duration: 0.4s;
+transition-duration: 0.4s;
+}
+.button:hover {
+background-color: purple;
+color: white;
+}
+p{
+text-align:center;
+font-style: oblique;
+}
+#animal-form{
+text-align:center;
+font-size:30px;
+}
+#add-animal{
+font-size:100px;
+}
+#gif-box{
+padding: 5px;
+margin: 5px;
+}

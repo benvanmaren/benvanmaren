@@ -1,0 +1,15 @@
+body {
+    width:60%;
+    margin: 10px;
+}
+.card-header {
+    background: navy;
+    color: white;
+}
+h1 {
+    color: navy;
+}
+.jumbotron {
+    background:white;
+    border: black solid;
+}
